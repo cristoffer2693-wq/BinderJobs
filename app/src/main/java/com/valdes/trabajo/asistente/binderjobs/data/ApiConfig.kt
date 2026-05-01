@@ -14,15 +14,15 @@ object ApiConfig {
      */
     
     // ============================================================
-    // CAMBIA ESTA LÍNEA CON TU URL DE RAILWAY CUANDO LO DESPLIEGUES
+    // URL DEL SERVIDOR EN RAILWAY (PRODUCCIÓN)
     // ============================================================
-    private const val PRODUCTION_URL = ""  // Ej: "https://binderjobs-backend.up.railway.app"
+    private const val PRODUCTION_URL = "https://binderjobs-production.up.railway.app"
     
     // URL para desarrollo local (emulador)
     private const val DEVELOPMENT_URL = "http://10.0.2.2:8000"
     
-    // Cambia a 'true' cuando tengas el backend en Railway
-    private const val USE_PRODUCTION = false
+    // Usar servidor de producción (Railway)
+    private const val USE_PRODUCTION = true
     
     val BASE_URL: String
         get() = if (USE_PRODUCTION && PRODUCTION_URL.isNotBlank()) {
