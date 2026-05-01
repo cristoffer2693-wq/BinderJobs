@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">BinderJobs</string>
+    
+    <!-- Navegación -->
+    <string name="title_home">Buscar</string>
+    <string name="title_dashboard">Ajustes</string>
+    
+    <!-- Pantalla de búsqueda (Home) -->
+    <string name="search_engine_subtitle">Motor de búsqueda de empleo</string>
+    <string name="search_hint">Buscar empleo</string>
+    <string name="search_hint_detailed">Cargo, empresa, habilidad…</string>
+    <string name="search_jobs">Buscar empleos</string>
+    <string name="clear_search">Limpiar búsqueda</string>
+    <string name="location">Ubicación</string>
+    <string name="change">Cambiar</string>
+    
+    <!-- Filtros rápidos -->
+    <string name="filter_remote">Remoto</string>
+    <string name="filter_nearby">Cerca de mí</string>
+    <string name="filter_fulltime">Tiempo completo</string>
+    <string name="filter_with_salary">Con salario</string>
+    
+    <!-- Estados de carga -->
+    <string name="loading_jobs">Cargando vacantes…</string>
+    <string name="searching_jobs">Buscando empleos…</string>
+    <string name="searching_multiple_sources">Consultando múltiples fuentes de internet</string>
+    
+    <!-- Estados vacíos -->
+    <string name="no_jobs">Sin resultados</string>
+    <string name="no_results_title">No se encontraron empleos</string>
+    <string name="no_results_message">Intenta con otros términos de búsqueda o cambia tu ubicación</string>
+    <string name="retry">Reintentar</string>
+    
+    <!-- Resultados -->
+    <string name="results_count">Se encontraron %d ofertas de empleo</string>
+    <string name="results_count_singular">Se encontró 1 oferta de empleo</string>
+    
+    <!-- Tarjetas de ofertas -->
+    <string name="high_match">Alta coincidencia</string>
+    <string name="nearby">Cercano</string>
+    <string name="save">Guardar</string>
+    <string name="saved">Guardado</string>
+    <string name="view_offer">Ver oferta</string>
+    <string name="open_offer">Abrir</string>
+    <string name="save_offer">Guardar</string>
+    <string name="job_source_format">%1$s · %2$s</string>
+    <string name="job_meta_format">%1$s - %2$s, %3$s</string>
+    
+    <!-- Configuración -->
+    <string name="settings_title">Personaliza tu búsqueda</string>
+    <string name="settings_subtitle">Ajustes para mejorar tus resultados</string>
+    <string name="setting_background_search">Búsqueda en segundo plano</string>
+    <string name="setting_background_search_desc">Buscar empleos automáticamente mientras usas otras apps</string>
+    <string name="setting_notifications">Notificar nuevas ofertas</string>
+    <string name="setting_notifications_desc">Recibir alertas cuando se encuentren ofertas relevantes</string>
+    <string name="setting_location">Priorizar mi zona</string>
+    <string name="setting_language">Idioma de resultados</string>
+    <string name="setting_frequency">Frecuencia de búsqueda</string>
+    <string name="setting_sources">Fuentes activas</string>
+    <string name="setting_frequency_value">Cada %d minutos</string>
+    <string name="setting_sources_value">%d fuentes activas</string>
+    
+    <!-- Ubicación -->
+    <string name="location_title">Tu ubicación</string>
+    <string name="country_label">País</string>
+    <string name="state_label">Departamento</string>
+    <string name="city_label">Ciudad</string>
+    <string name="radius_label">Radio de búsqueda (km)</string>
+    <string name="save_settings">Guardar</string>
+    <string name="detect_location">Detectar mi ubicación</string>
+    <string name="settings_saved">Configuración guardada</string>
+    <string name="location_detected">Ubicación detectada: %s</string>
+    
+    <!-- Preferencias de trabajo -->
+    <string name="preferences_title">Preferencias de trabajo</string>
+    <string name="preferred_role_label">Rol preferido</string>
+    <string name="preferred_role_hint">Ej: Desarrollador, Contador, Diseñador</string>
+    <string name="preferred_modality_label">Modalidad</string>
+    <string name="modality_any">Cualquiera</string>
+    <string name="modality_remote">Remoto</string>
+    <string name="modality_onsite">Presencial</string>
+    <string name="modality_hybrid">Híbrido</string>
+    <string name="salary_min_label">Salario mínimo</string>
+    
+    <!-- WebView -->
+    <string name="open_in_browser">Abrir en navegador</string>
+    <string name="job_url_arg">jobUrl</string>
+    <string name="job_title_arg">jobTitle</string>
+    
+    <!-- Notificaciones -->
+    <string name="notification_channel_name">Ofertas de empleo</string>
+    <string name="notification_channel_description">Notificaciones sobre nuevas ofertas de trabajo</string>
+    <string name="notification_new_jobs_title">Nuevas ofertas encontradas</string>
+    <string name="notification_new_jobs_text">Se encontraron %d ofertas que coinciden con tu búsqueda</string>
+    
+    <!-- Errores -->
+    <string name="error_network">Error de conexión. Verifica tu internet.</string>
+    <string name="error_server">El servidor no está disponible. Intenta más tarde.</string>
+    <string name="error_unknown">Ocurrió un error inesperado</string>
+    
+    <!-- Feed (compatibilidad) -->
+    <string name="feed_title">Ofertas para ti</string>
+    <string name="feed_subtitle">Basado en tu ubicación e intereses</string>
+</resources>
